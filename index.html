@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oppgaver Megatron</title>
-    <!-- Legg til Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -12,63 +12,72 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">Oppgaver Megatron</h1>
         <div class="accordion" id="assignmentsAccordion">
+
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Oppgave 1
+                        Oppgave 1: JavaScript Kalkulator (Lett)
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#assignmentsAccordion">
                     <div class="accordion-body">
+                        <h5>Hva kan man lære?</h5>
+                        <p>Du lærer grunnleggende JavaScript, hvordan bruke arrays og løkker for å utføre beregninger.</p>
+                        <h5>Oppgavetekst</h5>
                         <p>Lag en JavaScript-kalkulator for å beregne snitt karakteren din. Multipliser karakterene dine, del på antall karakterer, og få gjennomsnittet.</p>
-                        <button class="btn btn-secondary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#tipsOne" aria-expanded="false" aria-controls="tipsOne">
-                            TIPS
-                        </button>
-                        <div class="collapse mt-2" id="tipsOne">
-                            <div class="card card-body">
-                                Bruk en array for å lagre karakterene og en løkke for å beregne summen.
-                            </div>
-                        </div>
+                        <h5>Vurderingskriterier</h5>
+                        <ul>
+                            <li>1 poeng: Kalkulatoren fungerer for en fast liste med karakterer.</li>
+                            <li>2 poeng: Kalkulatoren fungerer for en dynamisk liste med karakterer.</li>
+                            <li>3 poeng: Brukergrensesnitt for å legge til karakterer og vise resultatet.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Oppgave 2
+                        Oppgave 2: Node.js RESTful API (Middels)
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#assignmentsAccordion">
                     <div class="accordion-body">
+                        <h5>Hva kan man lære?</h5>
+                        <p>Du lærer hvordan sette opp en Node.js-server, lage API-endepunkter og teste dem med Postman.</p>
+                        <h5>Oppgavetekst</h5>
                         <p>Lag et Node.js RESTful API som tar imot en liste med karakterer og returnerer gjennomsnittet. Gjerne bruk deler av oppgave 1 for oppgaven.</p>
-                        <button class="btn btn-secondary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#tipsTwo" aria-expanded="false" aria-controls="tipsTwo">
-                            TIPS
-                        </button>
-                        <div class="collapse mt-2" id="tipsTwo">
-                            <div class="card card-body">
-                                Bruk Express.js for å sette opp API-et og test det med Postman.
-                            </div>
-                        </div>
+                        <h5>Vurderingskriterier</h5>
+                        <ul>
+                            <li>1 poeng: API-et kan motta en fast liste med karakterer og returnere gjennomsnittet.</li>
+                            <li>2 poeng: API-et kan motta en dynamisk liste med karakterer via POST-forespørsel.</li>
+                            <li>3 poeng: API-et har validering for å sikre at kun gyldige data behandles.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Oppgave 3
+                        Oppgave 3: GSAP Scroll Animasjoner (Vanskelig)
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#assignmentsAccordion">
                     <div class="accordion-body">
+                        <h5>Hva kan man lære?</h5>
+                        <p>Du lærer hvordan man bruker frameworks som GSAP. Du lærer hvordan man bruker GSAP for avanserte animasjoner og ScrollTrigger-pluginen for å lage interaktive scroll-effekter.</p>
+                        <h5>Oppgavetekst</h5>
                         <p>Sett opp et prosjekt som bruker GSAP (GreenSock Animation Platform) for å lage scroll-animasjoner. Inkluder instruksjoner for å installere GSAP og implementere en enkel scroll-animasjon.</p>
-                        <button class="btn btn-secondary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#tipsThree" aria-expanded="false" aria-controls="tipsThree">
-                            TIPS
-                        </button>
-                        <div class="collapse mt-2" id="tipsThree">
-                            <div class="card card-body">
-                                Start med å installere GSAP via npm og bruk ScrollTrigger-pluginen for å lage animasjoner.
-                            </div>
-                        </div>
+                        <h5>Vurderingskriterier</h5>
+                        <ul>
+                            <li>1 poeng: En enkel animasjon er implementert med GSAP.</li>
+                            <li>2 poeng: ScrollTrigger-pluginen brukes for å lage en scroll-basert animasjon.</li>
+                            <li>3 poeng: Flere elementer har unike animasjoner som aktiveres ved scrolling.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
